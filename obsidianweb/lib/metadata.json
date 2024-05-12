@@ -1,0 +1,609 @@
+{
+  "vaultName": "Neurosience",
+  "lastExport": 1715540474785,
+  "pluginVersion": "1.8.01",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title h2-underline",
+  "useCustomHeadContent": false,
+  "useCustomFavicon": false,
+  "files": [
+    "Digital Garden/attachments/Hippocampus sketch by Camillo Golgi.bmp",
+    "Digital Garden/attachments/The Alchemist's Laboratory.jpg",
+    "Digital Garden/Published/attachments/fMRI spatial information.png",
+    "Digital Garden/Published/Action Potential.md",
+    "Digital Garden/Published/DREADs.md",
+    "Digital Garden/Published/Electroencephalography.md",
+    "Digital Garden/Published/fMRI.md",
+    "Digital Garden/Published/Fundamentum.md",
+    "Digital Garden/Published/Laboratorium.md",
+    "Digital Garden/Published/Neuroanatomy.md",
+    "Digital Garden/Published/Neuroscientific Methods.md",
+    "Digital Garden/Published/Optogenetics.md",
+    "Digital Garden/Published/Patch Clamp.md",
+    "Digital Garden/Published/Proprioception.md",
+    "Digital Garden/Published/Seeing.md",
+    "Digital Garden/Published/Seminal Work.md",
+    "Digital Garden/Published/Sensation.md",
+    "Digital Garden/Published/Tasting.md",
+    "Digital Garden/Published/The Study of Instinct.md",
+    "Digital Garden/Diffusion.md",
+    "Digital Garden/Jake's Virtual Laboratorium.md",
+    "Digital Garden/Ten Simple Rules in Good Research Practice.md",
+    "lib/media/hippocampus-sketch-by-camillo-golgi.bmp",
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/theme.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/supported-plugins.css",
+    "lib/styles/main-styles.css"
+  ],
+  "mainDependencies": [
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/theme.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/supported-plugins.css",
+    "lib/styles/main-styles.css"
+  ],
+  "fileInfo": {
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_zero.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 1368,
+      "exportedPath": "lib/fonts/mathjax_zero.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_main-regular.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 34160,
+      "exportedPath": "lib/fonts/mathjax_main-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_main-bold.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 34464,
+      "exportedPath": "lib/fonts/mathjax_main-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_math-italic.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 19360,
+      "exportedPath": "lib/fonts/mathjax_math-italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_main-italic.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 20832,
+      "exportedPath": "lib/fonts/mathjax_main-italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_math-bolditalic.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 19776,
+      "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size1-regular.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 5792,
+      "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size2-regular.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 5464,
+      "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size3-regular.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 3244,
+      "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_size4-regular.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 5148,
+      "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_ams-regular.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 40808,
+      "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_calligraphic-regular.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 9600,
+      "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_calligraphic-bold.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 9908,
+      "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_fraktur-regular.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 21480,
+      "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_fraktur-bold.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 22340,
+      "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_sansserif-regular.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 12660,
+      "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_sansserif-bold.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 15944,
+      "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_sansserif-italic.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 14628,
+      "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_script-regular.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 11852,
+      "exportedPath": "lib/fonts/mathjax_script-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_typewriter-regular.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 17604,
+      "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_vector-regular.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 1136,
+      "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/mathjax_vector-bold.woff": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 1116,
+      "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 21021,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 1793,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 157786,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/theme.css": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 41147,
+      "exportedPath": "lib/styles/theme.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 309,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/supported-plugins.css": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 11064,
+      "exportedPath": "lib/styles/supported-plugins.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "Digital Garden/attachments/Hippocampus sketch by Camillo Golgi.bmp": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 360054,
+      "exportedPath": "digital-garden/attachments/hippocampus-sketch-by-camillo-golgi.bmp",
+      "dependencies": []
+    },
+    "Digital Garden/attachments/The Alchemist's Laboratory.jpg": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 1803525,
+      "exportedPath": "digital-garden/attachments/the-alchemist's-laboratory.jpg",
+      "dependencies": []
+    },
+    "Digital Garden/Published/attachments/fMRI spatial information.png": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 49843,
+      "exportedPath": "digital-garden/published/attachments/fmri-spatial-information.png",
+      "dependencies": []
+    },
+    "Digital Garden/Published/Action Potential.md": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 3914,
+      "exportedPath": "digital-garden/published/action-potential.html",
+      "dependencies": []
+    },
+    "Digital Garden/Published/DREADs.md": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 0,
+      "exportedPath": "digital-garden/published/dreads.html",
+      "dependencies": []
+    },
+    "Digital Garden/Published/Electroencephalography.md": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 0,
+      "exportedPath": "digital-garden/published/electroencephalography.html",
+      "dependencies": []
+    },
+    "Digital Garden/Published/fMRI.md": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 3091,
+      "exportedPath": "digital-garden/published/fmri.html",
+      "dependencies": [
+        "digital-garden/published/attachments/fmri-spatial-information.png"
+      ]
+    },
+    "Digital Garden/Published/Fundamentum.md": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 96,
+      "exportedPath": "digital-garden/published/fundamentum.html",
+      "dependencies": []
+    },
+    "Digital Garden/Published/Laboratorium.md": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 59,
+      "exportedPath": "digital-garden/published/laboratorium.html",
+      "dependencies": []
+    },
+    "Digital Garden/Published/Neuroanatomy.md": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 1686,
+      "exportedPath": "digital-garden/published/neuroanatomy.html",
+      "dependencies": []
+    },
+    "Digital Garden/Published/Neuroscientific Methods.md": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 169,
+      "exportedPath": "digital-garden/published/neuroscientific-methods.html",
+      "dependencies": []
+    },
+    "Digital Garden/Published/Optogenetics.md": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 0,
+      "exportedPath": "digital-garden/published/optogenetics.html",
+      "dependencies": []
+    },
+    "Digital Garden/Published/Patch Clamp.md": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 0,
+      "exportedPath": "digital-garden/published/patch-clamp.html",
+      "dependencies": []
+    },
+    "Digital Garden/Published/Proprioception.md": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 0,
+      "exportedPath": "digital-garden/published/proprioception.html",
+      "dependencies": []
+    },
+    "Digital Garden/Published/Seeing.md": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 0,
+      "exportedPath": "digital-garden/published/seeing.html",
+      "dependencies": []
+    },
+    "Digital Garden/Published/Seminal Work.md": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 1531,
+      "exportedPath": "digital-garden/published/seminal-work.html",
+      "dependencies": [
+        "lib/media/hippocampus-sketch-by-camillo-golgi.bmp"
+      ]
+    },
+    "Digital Garden/Published/Sensation.md": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 58,
+      "exportedPath": "digital-garden/published/sensation.html",
+      "dependencies": []
+    },
+    "Digital Garden/Published/Tasting.md": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 0,
+      "exportedPath": "digital-garden/published/tasting.html",
+      "dependencies": []
+    },
+    "Digital Garden/Published/The Study of Instinct.md": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 55,
+      "exportedPath": "digital-garden/published/the-study-of-instinct.html",
+      "dependencies": []
+    },
+    "Digital Garden/Diffusion.md": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 743,
+      "exportedPath": "digital-garden/diffusion.html",
+      "dependencies": []
+    },
+    "Digital Garden/Jake's Virtual Laboratorium.md": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 2594,
+      "exportedPath": "digital-garden/jake's-virtual-laboratorium.html",
+      "dependencies": [
+        "digital-garden/attachments/the-alchemist's-laboratory.jpg"
+      ]
+    },
+    "Digital Garden/Ten Simple Rules in Good Research Practice.md": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 2413,
+      "exportedPath": "digital-garden/ten-simple-rules-in-good-research-practice.html",
+      "dependencies": []
+    },
+    "digital-garden/published/attachments/fmri-spatial-information.png": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 49843,
+      "exportedPath": "digital-garden/published/attachments/fmri-spatial-information.png",
+      "dependencies": []
+    },
+    "lib/media/hippocampus-sketch-by-camillo-golgi.bmp": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 360054,
+      "exportedPath": "lib/media/hippocampus-sketch-by-camillo-golgi.bmp",
+      "dependencies": []
+    },
+    "digital-garden/attachments/the-alchemist's-laboratory.jpg": {
+      "modifiedTime": 1715540474785,
+      "sourceSize": 1803525,
+      "exportedPath": "digital-garden/attachments/the-alchemist's-laboratory.jpg",
+      "dependencies": []
+    }
+  }
+}
